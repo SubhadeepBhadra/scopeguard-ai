@@ -96,7 +96,7 @@ Generates instant, professionally calibrated copy ready to send back to the clie
 
 ### 1. Clone & Navigate
 ```bash
-git clone <repo-url>
+git clone https://github.com/SubhadeepBhadra/scopeguard-ai.git
 cd scopeguard-ai
 ```
 
@@ -171,5 +171,11 @@ The application automatically seeds realistic agency data so you can test immedi
 
 ---
 
+## 👨‍💻 Author & Attribution
+Developed with pride by **Subhadeep Bhadra** ([@SubhadeepBhadra](https://github.com/SubhadeepBhadra)).  
+Built for the AI SaaS MVP Challenge.
+
+---
+
 ## 📄 License
-MIT License. Created for Challenge 1: AI SaaS MVP.
+MIT License. © 2026 Subhadeep Bhadra. All rights reserved.
