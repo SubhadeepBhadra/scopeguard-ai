@@ -146,7 +146,7 @@ The application automatically seeds realistic agency data so you can test immedi
 
 | Profile | Email | Password | Role | Pre-loaded Context |
 |---|---|---|---|---|
-| **Elena Rostova** | `director@scopeguard.ai` | `password123` | Agency Director | 3 live client agreements, $14.7k recovered revenue, historical change orders. |
+| **Subhadeep Bhadra** | `director@scopeguard.ai` | `password123` | Agency Director | 3 live client agreements, $14.7k recovered revenue, historical change orders. |
 | **Marcus Chen** | `freelancer@scopeguard.ai` | `password123` | Solo Freelancer | Clean freelance slate with Starter plan. |
 
 *You can toggle between demo roles directly using the top-bar dropdown in the UI!*

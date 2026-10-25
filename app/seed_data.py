@@ -22,7 +22,7 @@ def seed_database():
         director = User(
             email="director@scopeguard.ai",
             hashed_password=hash_password("password123"),
-            full_name="Elena Rostova",
+            full_name="Subhadeep Bhadra",
             company_name="Apex Studio Labs",
             role="director",
             plan_tier="pro",
@@ -117,12 +117,12 @@ def seed_database():
         db.refresh(p2)
         db.refresh(p3)
 
-        # 4. Create Historical Change Orders for Elena
+        # 4. Create Historical Change Orders for Subhadeep
         co1 = ChangeOrder(
             project_id=p1.id,
             user_id=director.id,
             title="Scope Change: Stripe Multi-Currency Payment Gateway",
-            client_request_raw="Hey Elena! Can we quickly allow users to deposit funds directly via Stripe in USD and EUR? Should just take an afternoon right?",
+            client_request_raw="Hey Subhadeep! Can we quickly allow users to deposit funds directly via Stripe in USD and EUR? Should just take an afternoon right?",
             category="Scope Expansion",
             risk_score=72,
             risk_level="High",

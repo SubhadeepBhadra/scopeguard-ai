@@ -117,7 +117,7 @@ def demo_login(req: DemoLoginRequest, response: Response, db: Session = Depends(
         user = User(
             email=target_email,
             hashed_password=hash_password("password123"),
-            full_name="Elena Rostova" if req.role == "director" else "Marcus Chen",
+            full_name="Subhadeep Bhadra" if req.role == "director" else "Marcus Chen",
             company_name="Apex Studio Labs" if req.role == "director" else "Chen Product Studio",
             role=req.role,
             plan_tier="pro" if req.role == "director" else "starter",

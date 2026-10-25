@@ -96,7 +96,7 @@ const App = {
     if (roleSelect) {
       roleSelect.addEventListener('change', async (e) => {
         const role = e.target.value;
-        this.showToast(`Switching to ${role === 'director' ? 'Agency Director (Elena)' : 'Solo Freelancer (Marcus)'}...`, 'info');
+        this.showToast(`Switching to ${role === 'director' ? 'Agency Director (Subhadeep)' : 'Solo Freelancer (Marcus)'}...`, 'info');
         try {
           const res = await API.demoLogin(role);
           this.currentUser = res.user;

@@ -8,7 +8,7 @@ const Analyzer = {
   presets: [
     {
       label: '💳 Stripe & Crypto Payment',
-      request: 'Hey Elena! Can we quickly allow users to deposit funds directly via Stripe in USD and EUR? Should just take an afternoon right? Also let us know if Bitcoin deposits are easy to toggle.'
+      request: 'Hey Subhadeep! Can we quickly allow users to deposit funds directly via Stripe in USD and EUR? Should just take an afternoon right? Also let us know if Bitcoin deposits are easy to toggle.'
     },
     {
       label: '📹 WebRTC In-App Video Room',
