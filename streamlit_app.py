@@ -138,7 +138,7 @@ with st.sidebar:
         ]
     )
     st.markdown("---")
-    st.caption("Built with FastAPI & Streamlit • Production Ready")
+    st.caption("Built with Python & Streamlit • Production Ready")
 
 # ==========================================
 # VIEW 1: DASHBOARD
