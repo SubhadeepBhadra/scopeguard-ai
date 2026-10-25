@@ -2,12 +2,14 @@
 > **An AI SaaS application empowering digital agencies, software shops, and freelance consultants to protect profit margins from unbilled scope creep.**
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Active%20Online-10b981?style=for-the-badge&logo=cloudflare)](https://nissan-relationships-consciousness-league.trycloudflare.com)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit)](https://control-defined-written-dam.trycloudflare.com)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Tests](https://img.shields.io/badge/pytest-passing-10b981?style=flat&logo=pytest&logoColor=white)](tests/test_api.py)
 [![License](https://img.shields.io/badge/License-MIT-6366f1?style=flat)](LICENSE)
 
-🌐 **Live Public Deployment:** [https://nissan-relationships-consciousness-league.trycloudflare.com](https://nissan-relationships-consciousness-league.trycloudflare.com)
+- 🌐 **Live Web Application:** [https://nissan-relationships-consciousness-league.trycloudflare.com](https://nissan-relationships-consciousness-league.trycloudflare.com)
+- 🎈 **Live Streamlit Deployment:** [https://control-defined-written-dam.trycloudflare.com](https://control-defined-written-dam.trycloudflare.com)
 
 ---
 
@@ -109,18 +111,25 @@ pip install -r requirements.txt
 ```
 
 ### 3. Launch the Server
-```bash
-python run.py
-```
-Or with Uvicorn directly:
-```bash
-uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
-```
+- **FastAPI Core + Modern UI:**
+  ```bash
+  python run.py
+  ```
+  *Live at: `http://127.0.0.1:8000`*
 
-Open your browser and navigate to:
-👉 **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
+- **Streamlit Interactive App:**
+  ```bash
+  streamlit run streamlit_app.py
+  ```
+  *Live at: `http://localhost:8501`*
 
-### 4. Run the Automated Test Suite
+### 4. 🎈 Streamlit Community Cloud (1-Click Free Deploy)
+1. Visit [share.streamlit.io](https://share.streamlit.io)
+2. Connect your GitHub account and select repository: `SubhadeepBhadra/scopeguard-ai`
+3. Set **Main file path** to: `streamlit_app.py`
+4. Click **Deploy!**
+
+### 5. Run the Automated Test Suite
 ```bash
 pytest tests/test_api.py -v
 ```
