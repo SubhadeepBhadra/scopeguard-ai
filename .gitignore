@@ -5,7 +5,10 @@ __pycache__/
 */__pycache__/
 */*/__pycache__/
 
-# Database WAL & temp files
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 *.db-shm
 *.db-wal
 
