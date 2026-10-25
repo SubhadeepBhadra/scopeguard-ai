@@ -1,10 +1,13 @@
 # 🛡️ ScopeGuard AI — Client Scope Creep & Change Order Engine
 > **An AI SaaS application empowering digital agencies, software shops, and freelance consultants to protect profit margins from unbilled scope creep.**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Active%20Online-10b981?style=for-the-badge&logo=cloudflare)](https://nissan-relationships-consciousness-league.trycloudflare.com)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Tests](https://img.shields.io/badge/pytest-passing-10b981?style=flat&logo=pytest&logoColor=white)](tests/test_api.py)
 [![License](https://img.shields.io/badge/License-MIT-6366f1?style=flat)](LICENSE)
+
+🌐 **Live Public Deployment:** [https://nissan-relationships-consciousness-league.trycloudflare.com](https://nissan-relationships-consciousness-league.trycloudflare.com)
 
 ---
 
